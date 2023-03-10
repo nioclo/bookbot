@@ -1,5 +1,4 @@
 with open("books/frankenstein.txt") as file:
-    print(file.name)
     file_contents = file.read()
 
     chars = {}
